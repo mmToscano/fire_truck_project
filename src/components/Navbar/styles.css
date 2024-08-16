@@ -1,0 +1,40 @@
+.navBarMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 100vh;
+    background-color: #10107A;
+}
+
+.navBarMain img {
+    width: 50%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+.list .listItem {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: #4A289E;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.list .listItem.selected {
+    background-color: #876FFD;
+}

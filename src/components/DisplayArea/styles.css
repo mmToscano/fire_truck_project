@@ -1,0 +1,24 @@
+.displayAreaMain{
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    background-color: whitesmoke;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100vh;
+}
+
+.displayAreaMain h1 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.containerData {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+    overflow-y: auto;
+}
